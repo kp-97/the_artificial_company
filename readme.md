@@ -43,4 +43,4 @@ Load from .env:
 See docs/git_commit_standards.md
 
 ## License
-MIT License
+Apache License

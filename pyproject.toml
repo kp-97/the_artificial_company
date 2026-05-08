@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=82", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoKPI"
+version = "0.1.0"
+dependencies = [
+    'pandas',
+    'openpyxl',
+    'matplotlib',    
+    'questionary',
+    'ollama',
+    'requests',
+    'python-docx',
+    'tqdm',
+    'docxtpl',
+    'docxcompose',
+    'pydantic-settings',
+    'pymongo',
+    'motor',
+    'ipykernel'
+]

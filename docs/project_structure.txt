@@ -1,0 +1,50 @@
+the_artificial_company/  [dir] Ideal project layout
+├─ .env                      [file] Global API keys (OpenAI, Anthropic) & DB Credentials
+├─ .gitignore                [file] Ignores venv/, node_modules/, .env, and __pycache__
+├─ docker-compose.yml        [file] Orchestrates FastAPI, React, Postgres, and Redis
+├─ README.md                  [file] Startup guide and system architecture overview
+│
+├─ backend/                   [dir] Python Multi‑Agent Engine
+│  ├─ app/                   [dir]
+│  │  ├─ api/                [dir]
+│  │  │  └─ v1/              [dir]
+│  │  │     ├─ endpoints/   [dir] /chat, /agents, /kpi routes
+│  │  │     └─ deps.py       [file] DB & Redis Session injections
+│  │  ├─ cli/                [dir]
+│  │  │  ├─ main.py         [file] App entry (typer.run)
+│  │  │  └─ prompts.py      [file] Questionary interactive flows
+│  │  ├─ agents/              [dir]
+│  │  │  ├─ orchestrator.py [file] Decision engine / Task routing
+│  │  │  ├─ profiles/       [dir] Agent personas & System prompts
+│  │  │  ├─ tools/           [dir] Agent abilities (SQL lookup, Web search)
+│  │  │  └─ state.py         [file] Handoff logic & Turn‑taking
+│  │  ├─ services/            [dir]
+│  │  │  ├─ agent_service.py  [file] Bridge between API/CLI and Agents
+│  │  │  └─ memory_service.py[file] Short‑term (Redis) to Long‑term (PG) transfer
+│  │  ├─ repositories/       [dir]
+│  │  │  ├─ redis_repo.py    [file] Working memory & Chat session caching
+│  │  │  ├─ postgres_repo.py [file] Permanent storage & Vector search
+│  │  │  └─ base.py          [file] Connection pooling & Client initialization
+│  │  ├─ core/               [dir]
+│  │  │  ├─ config.py        [file] Pydantic environment settings
+│  │  │  └─ database.py      [file] SQLAlchemy / SQLModel engine setup
+│  │  ├─ models/             [dir] Postgres DB Tables
+│  │  ├─ schemas/            [dir] Pydantic Data Contracts (Request/Response)
+│  │  └─ main.py             [file] FastAPI Application Entry point
+│  ├─ tests/                 [dir] Unit & Integration tests
+│  ├─ migrations/            [dir] Alembic version control for Postgres
+│  └─ requirements.txt       [file] Python dependencies
+│
+├─ doc/                       [dir] Documentation assets
+│
+└─ frontend/                  [dir] React + Tailwind Dashboard
+   ├─ src/                   [dir]
+   │  ├─ api/                [dir] Axios/Fetch clients for Backend comms
+   │  ├─ components/        [dir] Chat bubbles, Agent cards, KPI visuals
+   │  ├─ hooks/              [dir] useChat, useAgentState custom hooks
+   │  ├─ styles/             [dir] Tailwind CSS & Global themes
+   │  ├─ App.tsx             [file] Main UI Layout
+   │  └─ main.tsx            [file] React hydration
+   ├─ tailwind.config.js    [file] Design system configuration
+   ├─ package.json          [file] JS dependencies
+   └─ vite.config.ts        [file] Build tool configuration

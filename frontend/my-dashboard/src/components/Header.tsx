@@ -1,19 +1,12 @@
-import type { ReactElement } from "react";
+// src/components/Header.tsx
+import React from 'react';
 
-function Header(): ReactElement {
-    return (
-        <header>
-            <h1>My website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Chat</a></li>
-                    <li><a href="#">Tasks</a></li>
-                    <li><a href="#">Calendar</a></li>
-                </ul>
-            </nav>
-            <hr />
-        </header>
-    );
+export interface HeaderProps {
+  title: string;
 }
 
-export default Header;
+export const Header: React.FC<HeaderProps> = ({ title }) => (
+  <div className="header">
+    <h1>{title}</h1>
+  </div>
+);

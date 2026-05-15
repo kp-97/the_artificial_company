@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import Header from './components/Header.tsx'
+import React, { useState } from 'react';
+import { Sidebar } from './components/Sidebar';
+import { MainContent } from './components/MainContent';
+import type { Section } from './data/dashboardData';
+import './index.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+export const App: React.FC = () => {
+  const [currentSection, setCurrentSection] = useState<Section>('chat');
 
   return (
-    <>
-      <Header/>
-    </>
-  )
-}
-
-export default App
+    <div className="app-container">
+      <Sidebar selected={currentSection} onSelect={setCurrentSection} />
+      <MainContent section={currentSection} />
+    </div>
+  );
+};

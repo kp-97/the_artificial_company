@@ -1,0 +1,8 @@
+/* Add this to the end of App.css or create a new file and import it */
+.chat-box {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 320px;
+  z-index: 1000;
+}

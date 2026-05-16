@@ -1,0 +1,89 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="5">
+  <diagram name="Agentic Orgchart" id="7u7XjotOJSdzF0apqyN4">
+    <mxGraphModel dx="698" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tVe1GktpcCMx3006H15I-3" value="CTO&lt;div&gt;(orchestrator)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="544" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tVe1GktpcCMx3006H15I-4" value="Tools" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="520" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="tVe1GktpcCMx3006H15I-5" value="def task_abstraction()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tVe1GktpcCMx3006H15I-4">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tVe1GktpcCMx3006H15I-6" value="def delegate_tasks()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tVe1GktpcCMx3006H15I-4">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tVe1GktpcCMx3006H15I-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tVe1GktpcCMx3006H15I-4">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tVe1GktpcCMx3006H15I-8" value="CTO&lt;div&gt;(orchestrator)&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WwbMGSVnMumFSZWf-X0B-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;Task&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Description: Str&lt;br&gt;+ Required Tool: Str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Deterministic&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WwbMGSVnMumFSZWf-X0B-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="WwbMGSVnMumFSZWf-X0B-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BBIEiYTX_S3ImYYESCbP" name="Agentic Phases">
+    <mxGraphModel dx="837" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="isWiO_5EyMJfcXSbGfLj" name="Agentic Sprint">
+    <mxGraphModel dx="837" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ugHFUBKTfwdJRUlxcsOJ-1" value="Plan" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ugHFUBKTfwdJRUlxcsOJ-2" value="Design" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6NQ7KVHQyRckA3SEV9w-1" value="Build" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6NQ7KVHQyRckA3SEV9w-2" value="Test" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6NQ7KVHQyRckA3SEV9w-3" value="Review" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6NQ7KVHQyRckA3SEV9w-4" value="Sprint (Real Time + Agentic Time)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Twtayor171wqaC2KT4V-1" value="Sprint (Real Time + Agentic Time)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KC6BSWdGnr4XPsNoo1ol" name="Conversations">
+    <mxGraphModel dx="1017" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iof5wNvB_M6hzVLQMXpH" name="Backlog">
+    <mxGraphModel dx="1017" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
